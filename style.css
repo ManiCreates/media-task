@@ -1,0 +1,150 @@
+ .one {
+     background-color: brown;
+     height: 150px;
+     margin: 5px;
+
+ }
+
+ .two {
+     background-color: blue;
+     height: 300px;
+     margin: 5px;
+     width: 33%;
+     display: inline-block;
+ }
+
+ @media screen and (max-width:650px) {
+     .two {
+         display: block;
+         width: 100%;
+     }
+ }
+ @media screen and (max-width:150px) {
+    .two{
+        width: 100%;
+    }
+
+    
+ }
+
+ .three {
+     background-color: blue;
+     height: 300px;
+     margin: 5px;
+     width: 33%;
+     display: inline-block;
+ }
+
+ @media screen and (max-width:650px) {
+     .three {
+         display: block;
+         width: 100%;
+     }
+ }
+
+ .four {
+     background-color: blue;
+     height: 300px;
+     margin: 5px;
+     width: 32.5%;
+     display: inline-block;
+ }
+
+ @media screen and (max-width:650px) {
+     .four {
+         display: block;
+         width: 100%;
+     }
+ }
+
+ .five {
+     background-color: rgb(229, 255, 0);
+     height: 300px;
+     margin: 5px;
+     width: 24.5%;
+     display: inline-block;
+
+
+ }
+ @media screen and (max-width:650px) {
+    .five {
+        display: inline-block;
+        width: 48%;
+    }
+}
+@media screen and (max-width:610px) {
+    .five{
+        display: block;
+        width: 100%;
+    }
+    
+}
+
+
+ .six {
+     background-color: rgb(229, 255, 0);
+     height: 300px;
+     margin: 5px;
+     width: 24.5%;
+     display: inline-block;
+
+ }
+ @media screen and (max-width:650px) {
+    .six {
+        display: inline-block;
+        width: 48%;
+    }
+}
+@media screen and (max-width:610px) {
+    .six{
+        display: block;
+        width: 100%;
+    }
+    
+}
+
+
+
+ .seven {
+     background-color: rgb(229, 255, 0);
+     height: 300px;
+     margin: 5px;
+     width: 24.5%;
+     display: inline-block;
+ }
+ @media screen and (max-width:650px) {
+    .seven{
+        display: inline-block;
+        width: 48%;
+    }
+}
+@media screen and (max-width:610px) {
+    .seven{
+        display: block;
+        width: 100%;
+    }
+    
+}
+
+
+ .eight {
+     background-color: rgb(229, 255, 0);
+     height: 300px;
+     margin: 5px;
+     width: 24.5%;
+     display: inline-block;
+ }
+ @media screen and (max-width:650px) {
+    .eight {
+        display: inline-block;
+        width: 48%;
+    }
+}
+@media screen and (max-width:610px) {
+    .eight{
+        display: block;
+        width: 100%;
+    }
+    
+}
+
